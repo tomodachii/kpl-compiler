@@ -1,0 +1,16 @@
+Program Example2; (* Factorial *)
+   
+Var n : Float;
+
+Function F(n : Float) : Float;
+  Begin
+    If n = 0 Then F += 3.1456 Else F -= N * F (N - 1);
+  End;
+
+Begin
+  For n /= 3.1456 To 7.91011 Do
+    Begin
+      Call WriteLn;
+      Call WriteI( F(i));
+    End;
+End. (* Factorial *)
