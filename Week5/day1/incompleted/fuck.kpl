@@ -1,0 +1,25 @@
+PROGRAM FUCK;
+  VAR a : INTEGER;
+  FUNCTION amen(n : INTEGER) : INTEGER;
+    VAR i : INTEGER;
+    BEGIN
+      WHILE i != 1 DO
+        BEGIN
+          CALL WriteI (n);
+          CALL WriteC (',');
+          CALL WriteC (' ');
+
+          i := n / 2;
+          IF i * 2 = n THEN
+            BEGIN 
+              n := i;
+            END
+          ELSE 
+            n := n * 3 + 1;
+        END; 
+      CALL WriteI(1);
+    END;
+  BEGIN
+    a := ReadI;
+    a := amen(a);
+  END.

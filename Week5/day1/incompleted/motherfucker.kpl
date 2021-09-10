@@ -1,0 +1,5 @@
+PROGRAM MOTHERFUCKER;
+  VAR x, y, z : INTEGER;
+  BEGIN
+    x, y := y, x;
+  END.
